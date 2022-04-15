@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+
+    <!-- CSS file Included -->
+    <link rel="stylesheet" type="text/css" href="client.css" />
+
+    <script src="client.js"></script>
+  </head>
+
+  <body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+   
+        <!-- Game Instructions -->
+        <p id="ins">Game starts by just Tap on 
+            box<br><br>First Player starts as 
+            <b>Player X</b><br>And<br>Second 
+            Player as <b>Player 0</b>
+        </p>
+ 
+        <br><br>
+        <!-- 3*3 grid of Boxes -->
+        <input type="text" id="block1" onclick=
+            "checkTurn('block1'); " readonly>
+   
+        <input type="text" id="block2" onclick=
+            "checkTurn('block2'); " readonly>
+   
+        <input type="text" id="block3" onclick=
+            "checkTurn('block3');" readonly>
+        <br><br>
+   
+        <input type="text" id="block4" onclick=
+            "checkTurn('block4'); " readonly>
+               
+        <input type="text" id="block5" onclick=
+            "checkTurn('block5');" readonly>
+   
+        <input type="text" id="block6" onclick=
+            "checkTurn('block6'); " readonly>
+        <br><br>
+   
+        <input type="text" id="block7" onclick=
+            "checkTurn('block7'); " readonly>
+   
+        <input type="text" id="block8" onclick=
+            "checkTurn('block8'); " readonly>
+   
+        <input type="text" id="block9" onclick=
+            "checkTurn('block9'); " readonly>
+   
+        <!-- Grid end here  -->
+        <br><br><br>
+        <!-- Button to reset game -->
+        <button id="reset_button" onclick="resetGame()">
+            RESET
+        </button>
+   
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+    </div>
+    </button>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Websocket server for tic tac toe game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "server",
+    "websocket",
+    "backend"
+  ],
+  "author": "Dawgz",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
